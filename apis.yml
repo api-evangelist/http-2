@@ -1,11 +1,27 @@
+aid: http-2
 name: HTTP/2
-description: HTTP/2 is a technology or concept used in computing and information technology
-  to address specific technical challenges. It provides capabilities that help practitioners
-  build, manage, or improve systems and processes in their domain.
-url: null
+description: >-
+  HTTP/2 is the second major version of the HTTP protocol, providing
+  significant improvements over HTTP/1.1 including multiplexing, header
+  compression, server push, and stream prioritization. It is defined in
+  RFC 7540 and was standardized in 2015.
+url: https://raw.githubusercontent.com/api-evangelist/http-2/refs/heads/main/apis.yml
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- HTTP/2
+  - Protocol
+  - HTTP/2
+  - Networking
+  - Performance
 created: '2025'
-modified: '2025'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Reference
+    url: https://httpwg.org/specs/rfc7540.html
+  - type: Website
+    url: https://http2.github.io/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
