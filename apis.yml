@@ -34,6 +34,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/http2
   - type: Reference
     url: https://httpwg.org/specs/rfc7540.html
   - type: Website
